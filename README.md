@@ -2,6 +2,12 @@
 marp: true
 ---
 
+<style scoped>
+section {
+  background: yellow;
+}
+</style>
+
 React 教程
 ===
 
