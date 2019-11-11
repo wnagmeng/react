@@ -140,8 +140,8 @@ const element = React.createElement(
 
 # JSX代表一个对像（Object）
 
-事实上JSX会被React.createElement翻译成一个对像。
-对于上面的JSX，最终翻译的对像会是这样的：
+事实上JSX会被React.createElement翻译成一个对象。
+对于上面的JSX，最终翻译的对象会是这样的：
 ```js
 // Note: this structure is simplified
 const element = {
