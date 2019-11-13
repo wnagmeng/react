@@ -4,7 +4,12 @@ paginate: true
 style: |
   h1 {
     color: #0bb8e8;
+    text-align: center;
   }
+---
+
+# JSX介绍
+
 ---
 
 # 什么是 JSX？
