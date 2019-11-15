@@ -8,7 +8,7 @@ style: |
   }
 ---
 
-# JSX介绍
+# JSX 介绍
 
 ---
 
@@ -117,44 +117,42 @@ JSX 会过滤导致跨域攻击（XSS）的内容。
 
 ---
 
-# JSX代表一个对像（Object）
+# JSX 代表一个对像（Object）
 
 下面的两个表达是相同的：
 
 1. JSX
 
 ```jsx
-const element = (
-  <h1 className="greeting">
-    Hello, world!
-  </h1>
-);
+const element = <h1 className="greeting">Hello, world!</h1>;
 ```
 
 2. React.createElement
 
 ```js
 const element = React.createElement(
-  'h1',
-  {className: 'greeting'},
-  'Hello, world!'
+  "h1",
+  { className: "greeting" },
+  "Hello, world!"
 );
 ```
 
 ---
 
-# JSX代表一个对像（Object）
+# JSX 代表一个对像（Object）
 
-事实上JSX会被React.createElement翻译成一个对象。
-对于上面的JSX，最终翻译的对象会是这样的：
+事实上 JSX 会被 React.createElement 翻译成一个对象。
+对于上面的 JSX，最终翻译的对象会是这样的：
+
 ```js
 // Note: this structure is simplified
 const element = {
-  type: 'h1',
+  type: "h1",
   props: {
-    className: 'greeting',
-    children: 'Hello, world!'
+    className: "greeting",
+    children: "Hello, world!"
   }
 };
 ```
-这些对像也叫React元素，是用来渲染DOM的。
+
+这些对像也叫 React 元素，是用来渲染 DOM 的。
