@@ -17,7 +17,11 @@ import "./index.css";
 // import BasicRouter from "./router/SideBar";
 // import BasicRouter from "./advanced/NoHook";
 // import BasicRouter from "./advanced/WithHook";
-import BasicRouter from "./advanced/WithoutHook";
+// import BasicRouter from "./advanced/WithoutHook";
+// import BasicRouter from "./advanced/MultiHook";
+// import BasicRouter from "./advanced/EffectHook";
+// import BasicRouter from "./advanced/CleanupEffectHook";
+import BasicRouter from "./advanced/CustomizedHook";
 
 
 // import BasicRouter from "./router/NestedRouter";
