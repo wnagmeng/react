@@ -24,7 +24,11 @@ import "./index.css";
 // import BasicRouter from "./advanced/CustomizedHook";
 // import BasicRouter from "./advanced/NoContext";
 // import BasicRouter from "./advanced/WithContext";
-import BasicRouter from "./advanced/FunctionContext";
+// import BasicRouter from "./advanced/FunctionContext";
+// import BasicRouter from "./advanced/MultiContextHook";
+import BasicRouter from "./advanced/ContextHook";
+
+
 
 // import BasicRouter from "./router/NestedRouter";
 // import Clock from './Clock';
