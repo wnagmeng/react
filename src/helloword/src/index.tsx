@@ -21,8 +21,10 @@ import "./index.css";
 // import BasicRouter from "./advanced/MultiHook";
 // import BasicRouter from "./advanced/EffectHook";
 // import BasicRouter from "./advanced/CleanupEffectHook";
-import BasicRouter from "./advanced/CustomizedHook";
-
+// import BasicRouter from "./advanced/CustomizedHook";
+// import BasicRouter from "./advanced/NoContext";
+// import BasicRouter from "./advanced/WithContext";
+import BasicRouter from "./advanced/FunctionContext";
 
 // import BasicRouter from "./router/NestedRouter";
 // import Clock from './Clock';
@@ -71,7 +73,7 @@ import * as serviceWorker from "./serviceWorker";
 // );
 
 // ReactDOM.render(<Welcome name="Eric1" />, document.getElementById('root'));
-ReactDOM.render(<BasicRouter />, document.getElementById('root'));
+ReactDOM.render(<BasicRouter />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
